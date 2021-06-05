@@ -1,0 +1,123 @@
+#filter{
+  display: flex;
+  justify-content: center;
+}
+#isnotdone{
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+}
+#isnotdone:hover{
+  background-color: rgb(197, 15, 15);
+  color: white;
+}
+#isdone{
+  margin-right: 10px;
+  background-color: green;
+  color: white;
+}
+#isdone:hover{
+  background-color: rgb(1, 156, 1);
+  color: white;
+}
+#all{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+#all:hover{
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+#edit{
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+}
+#edit:hover{
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+.add{
+  background-color: rgb(255, 255, 255);
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.add:hover{
+  background-color: rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
+}
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 490px;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+button:hover{
+  cursor: pointer;
+}
+input{
+  font-size: 30px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+.btn{
+  margin-left: 20px;
+}
+#three{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.form{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: black;
+}
+p{
+  font-size: 30px;
+  margin-left: 5px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+#modal-bg{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left:0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#modal{
+  background-color: rgb(0, 0, 0);
+  width: 700px;
+}
+#task{
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+#modalhr{
+  color: white;
+}
+h1{
+  color: white;
+  margin-left: 45px;
+}
+#form{
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
